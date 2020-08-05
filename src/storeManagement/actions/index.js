@@ -28,7 +28,7 @@ const buildAction = (dispatch) => {
         hit: hitAction(dispatch),
         updateGame: updateGameAction(dispatch),
         placeBet: placeBetAction(dispatch),
-        updateMessage: updateMessageAction(dispatchEvent),
+        updateMessage: updateMessageAction(dispatch),
     }
 }
 
