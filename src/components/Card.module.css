@@ -1,0 +1,14 @@
+.card, .cardRed {
+    height: 150px;
+    width: 100px;
+    background-color: #BFBFBF;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+  }
+  
+  .cardRed {
+    color: red;
+  }
