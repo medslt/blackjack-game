@@ -28,7 +28,7 @@ const Main = () => {
         <h2 className={styles.message}>{message }</h2>
         <div className={styles.btns}>
             <button className={styles.btn} onClick={actions.hit}>Hit</button>
-            <button className={styles.btn} onClick={actions.stand}>Stand</button>
+            <button className={styles.btn} onClick={actions.stand}>Stick</button>
             <button className={styles.btn} onClick={startNewGame}>New Game</button>
         </div>
         <Wallet/>
